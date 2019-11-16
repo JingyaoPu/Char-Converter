@@ -13,6 +13,7 @@ class Login extends React.Component{
 
     render(){
         return(
+            
             <button onClick = {this.handleClick}>
                 {this.state.isLogin? 'Sign out':'Sign in'}
             </button>
@@ -21,6 +22,4 @@ class Login extends React.Component{
 
 }
   
- 
-
   export default Login;
